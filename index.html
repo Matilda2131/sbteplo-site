@@ -15,7 +15,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Отопление от Саши Белого — Премиум монтаж в СПб и ЛО">
     <meta property="og:description" content="Премиальный монтаж отопления, водоснабжения и канализации. Официальный представитель Rehau, Baxi, TECH, De Dietrich. Гарантия 5 лет. Калькулятор стоимости онлайн.">
-    <meta property="og:url" content="https://sasha-heating.ru">
+    <meta property="og:url" content="https://sbteplo.ru">
     <meta property="og:locale" content="ru_RU">
     <meta property="og:site_name" content="Отопление от Саши Белого">
     
@@ -25,7 +25,10 @@
     <meta name="twitter:description" content="Премиальный монтаж отопления, водоснабжения и канализации в СПб и ЛО. Гарантия 5 лет.">
     
     <!-- Canonical -->
-    <link rel="canonical" href="https://sasha-heating.ru">
+    <link rel="canonical" href="https://sbteplo.ru">
+    
+    <!-- Sitemap -->
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
     
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🔥%3C/text%3E%3C/svg%3E">
@@ -37,7 +40,7 @@
         "@type": "LocalBusiness",
         "name": "Отопление от Саши Белого",
         "description": "Монтаж отопления, водоснабжения и канализации в Санкт-Петербурге и Ленинградской области",
-        "url": "https://sasha-heating.ru",
+        "url": "https://sbteplo.ru",
         "telephone": "+7-911-924-54-25",
         "address": {
             "@type": "PostalAddress",
@@ -2444,7 +2447,7 @@ async function callAI(userText) {
             headers: {
                 'Authorization': 'Bearer ' + OPENROUTER_KEY,
                 'Content-Type': 'application/json',
-                'HTTP-Referer': window.location.href,
+                'HTTP-Referer': 'https://sbteplo.ru',
                 'X-Title': 'Sasha Heating'
             },
             body: JSON.stringify({
